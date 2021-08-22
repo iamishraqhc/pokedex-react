@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import './App.css'
-import PokeList from './components/PokeList'
-import DetailView from './components/DetailView';
-import Pokemon from './components/Pokemon'
+import { PokeList, DetailView, Pokemon } from './components'
 
 class App extends Component {
   constructor() {
